@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style-plus.css">
+</head>
+<body class="bg-[#d2dfe5]">
+
+    <!-- Navbar -->
+     <nav class="overflow-hidden flex md:flex py-[40px] px-[90px] items-center justify-between w-[100%]">
+        <!-- Logo + links -->
+
+        <div class="flex flex-row ">
+
+            <h2 class="logo font-bold text-[30px] ml-[20px] md:ml-[100px]">FUTA AXIS</h2>
+
+            <!-- Links -->
+
+            <div class="karla-font hidden md:flex ml-[60px] text-[13px] space-x-6 items-center">
+                <a href="#">Pages</a>
+                <a href="#">Components</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+        
+
+        <div class="btn hidden lg:flex text-[15px] items-center">
+            <button class="karla-font">
+                <i class="fa-solid fa-paper-plane"></i>
+                <a href="#" class="text-blue-500 text-[13px] ml-[10px]">Upgrade to Pro </a>
+            </button>
+    
+    
+            <button class="karla-font ml-[20px]">
+                <i class="fa-solid fa-mobile"></i>
+                <a href="#" class="text-[13px] ml-[10px]">Get Our App</a>
+            </button>
+        
+        </div>
+
+
+
+
+
+        <!-- Hamburger Menu -->
+
+        <!-- <div class="hamburger ml-[25px] h-[150px] p-6 bg-black">
+            <div class="ham-links flex-flex-col text-[15px] text-[#818181]">
+                <a href="#">Pages</a>
+                <a href="#">Components</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+          
+           -->
+
+
+           <button class="openbtn" onclick="toggleNav()">
+             <i class="fa-solid fa-bars"></i>
+           </button>
+           
+
+
+           <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+            <a href="#">Pages</a>
+            <a href="#">Components</a>
+            <a href="#">Support</a>
+          </div>
+
+
+
+
+
+
+
+
+
+     </nav>
+
+
+
+     <!-- Hero Section -->
+
+     <div class="flex flex-col items-center justify-center mt-[40px] md:mt-[60px]">
+
+        <p class="karla-font text-[25px] md:text-[40px]">
+            We are the FUTA AXIS
+        </p>
+
+        <p class="karla-font text-[15px] ml-[15px] md:block font-normal mt-[40px]">
+            Futa Axis are a unique web development & design company working at the pinnacle of UI/UX designs
+        </p>
+
+        <button class="works mt-[60px] text-[12px]">
+            <i class="fa-solid fa-briefcase text-[15px]"></i>
+            <a href="#" class="karla-font ml-[5px]">Our Works</a>
+        </button>
+
+        </div>
+
+
+
+        <!-- Work Proof -->
+
+       <div class="flex items-center justify-center">
+        <div class="karla-font proof flex flex-col gap-y-[100px] md:flex-row gap-x-[40px] mt-[150px] items-center justify-center">
+
+            <div class="grid-item flex flex-col items-center justify-center">
+
+                <i class="fa-solid fa-eye text-[30px]"></i>
+
+                <span class="text-2 font-bold md:text-[20px]">Audience</span>
+
+                <p class="w-[200px] text-[13px] mt-[20px]">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas quia dolor doloremque, reprehenderit accusamus iure doloribus voluptatem amet rerum
+                </p>
+            </div>
+
+
+            <div class="grid-item flex flex-col items-center justify-center">
+
+                <i class="fa-solid fa-medal text-[30px]"></i>
+
+                <span class="text-2 font-bold md:text-[20px]">Branding</span>
+
+                <p class="w-[200px] text-[13px] mt-[20px]">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas quia dolor doloremque, reprehenderit accusamus iure doloribus voluptatem amet rerum
+                </p>
+            </div>
+
+
+            <div class="grid-item flex flex-col items-center justify-center">
+
+
+                <i class="fa-solid fa-puzzle-piece text-[30px]"></i>
+
+                <span class="text-2 font-bold md:text-[20px]">Production</span>
+
+                <p class="w-[200px] text-[13px] mt-[20px]">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas quia dolor doloremque, reprehenderit accusamus iure doloribus voluptatem amet rerum
+                </p>
+            </div>
+
+
+
+        </div>
+       </div>
+
+
+        <!-- Flier -->
+
+        <div class="hidden mt-[150px] items-center justify-between md:flex-row px-[300px]">
+
+
+            <!-- Image with distorted circular shape -->
+
+             <img src="cool-kid.jpeg" alt="" class="w-[150px] ml-[90px]">
+
+             <div class="block md:mr-[50px]">
+
+                <span class="text-2 font-bold md:text-[20px]"> Design with Us or Develop anything</span>
+
+
+                <p class="w-[300px] text-[13px] mt-[20px]">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa ratione consequatur officia laboriosam delectus voluptate accusamus perspiciatis, quasi architecto vitae modi. Architecto aliquam, ab saepe totam maiores consectetur facilis nobis.
+                </p>
+             </div>
+
+        </div>
+
+
+
+        <!-- Stats -->
+
+        <div class="karla-font flex flex-col mt-[200px] gap-y-[100px] items-center justify-evenly md:flex-row">
+
+
+            
+
+            <div class="flex flex-col items-center justify-center">
+
+
+                <i class="fa-regular fa-face-smile md:text-[30px] mb-[15px]"></i>
+
+                <span class="text-[14px]">Team Members</span>
+
+                <span class="font-light text-[20px] mt-[5px]">3</span>
+            </div>
+
+
+
+
+
+
+            <div class="flex flex-col items-center justify-center">
+                
+
+                <i class="fa-solid fa-eye md:text-[30px] mb-[15px]"></i>
+
+                <span class="text-[14px]">Projects Published</span>
+
+                <span class="font-light text-[20px] mt-[5px]">2400+</span>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="flex flex-col items-center justify-center">
+
+                <i class="fa-solid fa-globe md:text-[30px] mb-[15px]"></i>
+
+                <span class="text-[14px]">Countries</span>
+
+                <span class="font-light text-[20px] mt-[5px]">1</span>
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <!-- Our Team -->
+
+
+        <div class="karla-font team flex flex-col mt-[200px] gap-y-[100px] items-center justify-between md:flex-row p-6 gap-x-[80px]">
+
+            <div class="team-1 flex flex-col">
+                <span class="text-[20px]">Ajiwojuolorun Israel</span>
+
+                <span class="mt-[10px] text-[15px] font-light">Front-end Developer</span>
+
+                <div class="flex gap-x-3 mt-[20px]">
+
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+                </div>
+            </div>
+
+            <!-- Papa -->
+            <div class=" team-2 flex flex-col">
+
+                <span class="text-[20px]">Ojudun Ayomide</span>
+
+                <span class="mt-[10px] text-[15px] font-light">Backend-end Developer</span>
+
+                <div class="flex gap-x-3 mt-[20px]">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+    
+                    </div>
+
+            </div>
+
+
+            <!-- Adio -->
+            <div class="team-3 flex flex-col">
+
+
+                <span class="text-[20px]">Adio Fawaz</span>
+
+                <span class="mt-[10px] text-[15px] font-light">Figma/Graphics Designer</span>
+
+                <div class="flex gap-x-3 mt-[20px]">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+    
+                    </div>
+
+            </div>
+
+        </div>
+        
+
+
+
+
+        <!-- JavaScript -->
+
+        <script>
+            const smNav = document.getElementById("mySidepanel")
+
+            const toggleNav = () => {
+
+                if(smNav.style.display == "block"){
+                    smNav.style.display = "none"
+                } else{
+                    smNav.style.display = "block"
+                }
+            }
+        </script>
+
+    
+</body>
+</html>
